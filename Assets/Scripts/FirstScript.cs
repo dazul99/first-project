@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class FirstScript : MonoBehaviour
 {
+    /*
     //Pepe el bardo   
     //Edad del bardo
     private int age = 24;
@@ -16,9 +17,31 @@ public class FirstScript : MonoBehaviour
     private string profession = "Bardo";
     //Justo lo que parece
     private float price = 53.88f;
-    /*
-     * Pepe
-     * El
-     * Bardo
-     */
+
+
+    private void Start()
+    {
+        Debug.Log("Hola mundo... Si, muy original");
+        Debug.Log($"Nombre: {name}");
+        Debug.Log(string.Format("Edad: {0} años", age));
+        if (male)
+        {
+            Debug.Log("Hombre");
+        }
+        else
+        {
+            Debug.Log("Mujer");
+        }
+        Debug.Log("Profesión " + profession);
+        Debug.Log($"Precio: {price}");
+        
+
+    }
+        */
+
+    private void Start()
+    {
+    
+    }
+
 }
