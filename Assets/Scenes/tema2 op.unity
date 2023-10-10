@@ -343,6 +343,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   num1: -6.96
   num2: 0.9
+  num: 2147483647
 --- !u!136 &1476697328
 CapsuleCollider:
   m_ObjectHideFlags: 0
